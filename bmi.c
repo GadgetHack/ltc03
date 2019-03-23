@@ -9,10 +9,13 @@ float bmi (float weight, float height)
 int main (void)
 
 {
+    char m2[]="";
     float weight = 0.0;
     float height = 0.0;
     float BMI = 0.0;
 
+    printf ("Please enter your gender: ");
+    scanf("%f", &mail);
     printf ("Please enter your weight in kilograms: ");
     scanf("%f", &weight);
     printf("Please enter your height in centimeters: ");
@@ -35,6 +38,7 @@ int main (void)
     {
         printf("\nYour BMI is %f: Obesity.\n",BMI);
     }
+
 
 
     return 0;
